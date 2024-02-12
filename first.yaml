@@ -1,0 +1,8 @@
+name: my first workflow
+jobs:
+  my first job:
+    steps:
+      - name: task 1
+        run: ls
+      - name: task2
+        run: echo hello world
